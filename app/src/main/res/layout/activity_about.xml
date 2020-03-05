@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@color/colorBackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:text="NIM : 11318045"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:text="Prodi : D3 Teknologi Informasi"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tentang Pengembang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="16dp"
+        android:scrollbarSize="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/me"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="229dp"
+        android:layout_height="41dp"
+        android:text="Nama : Loveleen MArgareth Roose Sinaga"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="68dp"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="358dp"
+        android:layout_height="431dp"
+        android:text="Hidup itu sederhana jika menjalaninya dengan kegembiraan dan kebahagiaan. Jalani saja porsi hidup Anda dan tidak ikut campur dalam kehidupan orang lain. Sederhana bukan? Tapi terkadang Anda terlalu masuk dalam urusan orang lain yang bukan bagian dari hidup Anda, sehingga hidup terasa begitu berat dan rumit. Kebiasaan bergosip, mencemooh, berucap buruk dan tidak benar kerap dilakukan. Anda menganggap diri Anda rendah. Inilah yang membuat hidup Anda terasa sulit."
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="234dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
